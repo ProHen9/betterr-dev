@@ -1,9 +1,10 @@
-import { component$ } from "@builder.io/qwik";
 
+import { component$ } from "@builder.io/qwik";
+import FirstSection from "~/components/Home/FirstSection";
 export default component$(() => {
   return (
     <>
-      <h2>Hey</h2>
+      <FirstSection />
     </>
-  )
+  );
 })

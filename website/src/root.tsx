@@ -1,3 +1,4 @@
+
 import { component$ } from "@builder.io/qwik";
 import {
   QwikCityProvider,
@@ -7,7 +8,7 @@ import {
 import { RouterHead } from "./components/router-head/router-head";
 
 import "./global.css";
-
+import "unocss";
 export default component$(() => {
   /**
    * The root of a QwikCity site always start with the <QwikCityProvider> component,
